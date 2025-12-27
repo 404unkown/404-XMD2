@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: 404-xmd
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+    plan: free
+    disk:
+      name: tmp
+      mountPath: /tmp
+      sizeGB: 1

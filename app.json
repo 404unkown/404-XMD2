@@ -1,0 +1,31 @@
+{
+  "name": "404-XMD",
+  "description": "WhatsApp Bot",
+  "repository": "https://github.com/404unkown/404-XMD2",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["whatsapp", "bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Bot owner number",
+      "value": "254769769295"
+    },
+    "BOT_NAME": {
+      "description": "Bot name",
+      "value": "404-XMD"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

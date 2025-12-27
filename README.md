@@ -12,7 +12,7 @@
 
 <!-- Quick Download Button -->
 <div align="center" style="margin: 20px 0;">
-  <a href="https://github.com/404unkown/404-XMD/archive/refs/heads/main.zip">
+  <a href="https://github.com/404unkown/404-XMD2/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/badge/📥_DOWNLOAD_ZIP-00FF00?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Download ZIP" />
   </a>
 </div>

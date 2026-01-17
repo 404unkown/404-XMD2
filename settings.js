@@ -1,12 +1,11 @@
 const settings = {
-  // BLACK-MD variables
   sessionName: 'session',
-  session: process.env.SESSION || 'BLACK MD;;;bth0wBDC#4QcmzpBKKeL1XGANe2K4qIYqjK5WfReuzv7Z2HFZk-Q',
+  session: process.env.SESSION || '404-XMD;;;bth0wBDC#4QcmzpBKKeL1XGANe2K4qIYqjK5WfReuzv7Z2HFZk-Q',
   autobio: process.env.AUTOBIO || 'FALSE',
   port: process.env.PORT || 10000,
   mycode: process.env.CODE || '254',
   antiforeign: process.env.ANTIFOREIGN || 'TRUE',
-  packname: process.env.STICKER_PACKNAME || 'BLACK MD',
+  packname: process.env.STICKER_PACKNAME || '404-XMD',
   
   // 404-XMD variables
   PREFIX: '.',
